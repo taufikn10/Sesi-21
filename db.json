@@ -8,17 +8,12 @@
     {
       "id": 2,
       "title": "Post no 2",
-      "description": "Description for Post no 1"
+      "description": "Description for Post no 2"
     },
     {
       "id": 3,
       "title": "Post no 3",
-      "description": "Description for Post no 1"
-    },
-    {
-      "title": "Taufik Nurrahman",
-      "description": "Taufik Nurrahman adalah seorang mahasiswa di universitas negeri surabaya",
-      "id": 4
+      "description": "Description for Post no 3"
     }
   ]
 }

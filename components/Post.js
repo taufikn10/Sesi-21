@@ -3,7 +3,7 @@ import { Button, View, StyleSheet, Text } from "react-native";
 
 export default function Post({ post, idx, deleteFromState }) {
   const deletePost = () => {
-    fetch("http://192.168.1.153:4000/posts/${post.id}", {
+    fetch(`http://192.168.1.153:4000/posts/${post.id}`, {
       method: "DELETE",
     })
       .then(() => deleteFromState(idx))
@@ -14,6 +14,9 @@ export default function Post({ post, idx, deleteFromState }) {
       <View style={{ flex: 10 }}>
         <Text style={styles.title}>{post.title}</Text>
         <Text>{post.description}</Text>
+      </View>
+      <View style={{ flex: 1 }}>
+        <Button title="E" color="green" />
       </View>
       <View style={{ flex: 1 }}>
         <Button title="X" color="red" onPress={deletePost} />
