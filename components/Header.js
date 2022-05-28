@@ -1,11 +1,14 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Header() {
   return (
-    <View style={styles.background}>
-      <Text style={styles.text}>Posts</Text>
-    </View>
+    <SafeAreaView>
+      <View style={styles.background}>
+        <Text style={styles.text}>Posts</Text>
+      </View>
+    </SafeAreaView>
   );
 }
 

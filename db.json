@@ -6,14 +6,19 @@
       "description": "Description for Post no 1"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Post no 2",
-      "description": "Description for Post no 2"
+      "description": "Yee"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Post no 3",
       "description": "Description for Post no 3"
+    },
+    {
+      "id": "4",
+      "title": "Taufik Nurrahman",
+      "description": "Taufik Nurrahman adalah seorang Mahasiswa"
     }
   ]
 }
